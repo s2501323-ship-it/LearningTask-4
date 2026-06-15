@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Javascript 05</title>
+        <style type="text/css">
+            .image container{
+                display: none;
+            }
+
+
+        </style>
+        <script>
+            function setvisibility(value){
+                document.getElementById("league logo").style.display=value;
+                
+            }
+        </script>
+        <body>
+            <div class="image-container" id="league logo">
+                <img src="League-of-Legends-Logo.png" width="50%">
+            </div>
+                [ <a href="javascript:void(0)" onclick="return setvisibility('block')">Display Image</a>
+                | <a href="javascript:void(0)" onclick="return setvisibility('none')">Hide Image</a>
+                ] 
+            </body>
+    </head>
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <title>Calculator</title>
+    <body>
+        
+        
+        <h1> Calculator </h1>
+        <script>
+        function sum() {
+            let firstNum = prompt("Enter 1st number : ");
+            let secondNum = prompt("Enter 2nd number : ");
+
+            let sum = parseFloat(firstNum) + parseFloat(secondNum);
+            
+            alert("Answer is : " + sum);
+
+        }
+
+         function diff() {
+            let firstNum = prompt("Enter 1st number : ");
+            let secondNum = prompt("Enter 2nd number : ");
+
+            let diff = parseFloat(firstNum) - parseFloat(secondNum);
+            
+            alert("Answer is : " + diff);
+
+        }
+            
+         function product() {
+            let firstNum = prompt("Enter 1st number : ");
+            let secondNum = prompt("Enter 2nd number : ");
+
+            let prod = parseFloat(firstNum) * parseFloat(secondNum);
+            
+            alert("Answer is : " + prod);
+        }
+
+         function quotient() {
+            let firstNum = prompt("Enter 1st number : ");
+            let secondNum = prompt("Enter 2nd number : ");
+
+            let quo = parseFloat(firstNum) / parseFloat(secondNum);
+             
+            alert("Answer is : " + quo);
+        }
+
+
+        
+        </script>
+       
+       <body>
+             <button onclick="return sum()">
+             Click me to add 2 numbers
+             </button>
+
+         
+        
+         <button onclick="return diff()">
+             Click me to subtract 2 numbers
+             </button>
+
+         
+
+         <button onclick="return product()">
+             Click me to multiply 2 numbers
+             </button>
+
+         
+
+         <button onclick="return quotient()">
+             Click me to divide 2 numbers
+             </button>
+
+         
+        
+        
+        </body>
+
+    </body>
+</head>
