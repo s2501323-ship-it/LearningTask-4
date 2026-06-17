@@ -1,0 +1,15 @@
+body{
+    background-color:rgb(70, 70, 70);
+}
+.wrapper
+{
+    width: 200px;
+    border: 1px;
+    background-color: rgb(0, 0, 0);
+}
+.header
+{
+    
+    background-image: url(../images/abstract-under-construction-.jpg);
+    min-height: 100px;
+}
